@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+
+}
+.encabezado{
+    background-color: #2C3E50;
+    height: 104px;
+}
+    
+.menu ul li {
+    list-style: none;/*sirve para quitar puntos de referencia*/
+    display: inline-block; 
+    /**/
+}
+.menu{
+    position: relative;
+    left: 60%;
+    top: -15px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15px;/*tamaño de la letra*/
+    font-family: "Arial Black", serif;    
+}
+.titulo{
+    position: relative;
+    left: 15%;
+    top: 30px;
+}  
+.titulo a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 30px;/*tamaño de la letra*/
+    font-family: "Arial Black", serif;  
+}
+.caja-imagen{
+    background-color: #1ABC9C;
+    height: 650px;
+}
+.div-img img {
+    height: 300px;
+    width: 300px;
+}
+.div-img{
+    text-align: center;
+}
+.estrella{
+    text-align: center;  
+}
+.estrella h1{
+    font-size: 40px;
+    color: white;
+}
+.estrella p{
+    color: white;
+    font-size: 28px;
+}
+.portafolio{
+    text-align: center;
+}
+.portafolio h1{
+    color: #2c3e50;
+    font-size: 50px;
+}
+.acerca-de{
+    background-color: #1ABC9C;
+    height:500px;
+    text-align: center;
+}
+.parrafo1 {
+    display: inline-block;
+    padding-top: 20px;
+    position: relative;
+    top: 20px;
+    margin-right: 20px;
+
+}
+.parrafo2{
+    display: inline-block;
+    margin-left: 20px;
+}
+.acerca-de h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+p{
+    color: white;
+    margin: 0;
+    font-size: 20px;
+}
+button{
+    position: relative;
+    top: 40px;
+    height: 60px;
+    width: 140px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 20px;   
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
